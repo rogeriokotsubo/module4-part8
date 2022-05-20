@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 47px;
+  min-width: 700px;
+  align-items: center;
+  font-size: 16px;
+}
+.a-menu {
+  text-decoration: none;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+  transition: background .3s;
+}
+.a-menu:hover {
+  background-color: #006050;
+}
+/* - ESTILO PARA O RODAPÉ - */
+#footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  position: static;
+  bottom: 0;
+  margin-top: 10px;
+  height: 50px;
+}
+#footer p {
+  text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+    font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 2vh;
+}
+
+#exercicio1 {
+  flex: 1;
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+}
+
+.container-1{
+  display: flex;
+  gap: 2vw;
+}
+.container{
+  height: 10vh;
+  width: 7vw;
+}
+.block{
+  height: 10vh;
+  width: 7vw;
+  border-color: rebeccapurple;
+  border-style: solid;
+  border-width: 1px;  
+}
+.block1{
+  height: 2vh;
+  width: 1vw;
+  background-color: green;
+  border-style: solid;
+  border-color: lime;
+  border-width: 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+#example1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#example2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#example3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#example4{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+#example5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#align-self{
+  align-self: flex-end;
+}
+#example6{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#align-self1{
+  align-self: flex-start;
+}
+#align-self3{
+  align-self: flex-end;
+}
